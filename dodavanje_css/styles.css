@@ -1,0 +1,41 @@
+
+*{
+    font-family: "Montserrat", sans-serif;;
+}
+
+
+h3{
+    color:blue
+}
+
+h4{
+    color: #bd1555;
+}
+
+p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.naslov {
+    color: blueviolet;
+}
+
+.rgb {
+    color: rgb(1, 103, 30);
+}
+
+.amet {
+    background-color: lightblue;
+}
+
+#naslov1 {
+    color: dodgerblue;
+}
