@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolokvij2</title>
+    <style>
+      .div1 {
+            background-color: red;
+            height: 100px;
+            width: 500px;
+        }
+      .div2 {
+            background-color: white;
+            height: 100px;
+            width: 500px;
+        }
+      .div3 {
+            background-color: blue;
+            height: 100px;
+            width: 500px;
+        }
+      .div4 {
+            background-color: rgb(225, 0, 255);
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            padding: 20px;
+            border: 50px;
+            box-shadow: 5px 10px #888888;
+
+        }
+
+    
+        .container1 {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              width: 300px;
+            }
+            
+            .prvi {
+            background-color: aqua;
+            }
+            .drugi {
+            background-color: blue;
+            }  
+            .treci {
+            background-color: red;
+            }
+            .cetvrti {
+            background-color: blueviolet;
+            }
+            .peti {
+            background-color: chartreuse;
+            }
+
+            .sesti {
+            background-color: brown;
+            }
+            .sedmi {
+            background-color: cadetblue;
+            }
+            .osmi {
+            background-color: chocolate;
+            }
+            .deveti {
+            background-color: coral;
+            }
+
+            .input-field {
+            color: rebeccapurple;
+            border: 3px solid red;
+            }
+            #special-input {
+            color: blue;
+            border: 3px solid rgb(205, 50, 50);
+            }
+
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div> 
+
+    <div class="div4"></div>
+    <br>
+    <form>
+        <label for="tekst">Unos teksta:</label>
+        <input id="special-input" class="input-field" type="text">
+    </form>
+    <br>
+    <div class="container1">
+        <div class="prvi">Ovo je prvi tekst.</div>
+        <div class="drugi">Ovo je drugi tekst.</div>
+        <div class="treci">Ovo je treći tekst.</div>
+        <div class="cetvrti">Ovo je četvrti tekst.</div>
+        <div class="peti">Ovo je peti tekst.</div>
+        <div class="sesti">Ovo je šesti tekst.</div>
+        <div class="sedmi">Ovo je sedmi tekst.</div>
+        <div class="osmi">Ovo je osmi teskt.</div>
+        <div class="deveti">Ovo je deveti tekst.</div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
