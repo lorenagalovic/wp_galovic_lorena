@@ -1,0 +1,105 @@
+/* Postavljanje fontova */
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+  
+  }
+  
+  
+  
+  h1 {
+  
+    font-size: 4rem;
+  
+    font-weight: 600;
+  
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  
+  
+  h2 {
+  
+    color: #4CAF50;
+  
+  }
+  
+  
+  
+  /* Glavni sadržaj */
+  
+  .main-content {
+  
+    background-color: #ECEFF1;
+  
+  }
+  
+  
+  
+  p {
+  
+    font-size: 16px;
+  
+    margin: 10px 0;
+  
+  }
+  
+  
+  
+  p:nth-of-type(1) {
+  
+    color: #FFC107;
+  
+  }
+  
+  
+  
+  p:nth-of-type(2) {
+  
+    font-size: 18px;
+  
+  }
+  
+  
+  
+  p:nth-of-type(3) {
+  
+    font-size: 20px;
+  
+    color: #37474F;
+  
+  }
+  
+  
+  /* Lista */
+  
+  ul {
+  
+    list-style-type: square;
+  
+  }
+  
+  
+  
+  ul li {
+  
+    font-size: 16px;
+  
+    color: #546E7A;
+  
+  }
+  
+  
+  /* Stil za validaciju */
+  
+  #main-title {
+  
+    font-size: 4rem;
+  
+    color: #37474F;
+  
+  }
+  
+  
